@@ -1,0 +1,90 @@
+
+html, body {
+  height: 100%; /* Make sure the body covers the full height of the viewport */
+  margin: 2rem; 
+}
+
+main {
+  height: 100%; /* Make the main element cover the full height of the viewport */
+  display: flex; /* Use flexbox to center content */
+  justify-content: center; /* Center content horizontally */
+  align-items: center; /* Center content vertically */
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+
+.welcome-page {
+  display: flex;
+  align-items: center;
+}
+
+.welcome-page img {
+  width: 50%;
+  max-width: 500px;
+  margin-left: 0;
+  
+}
+
+.text-content {
+  flex: 1;
+  padding: 20px;
+  text-align: left;
+  margin-left: 4rem;
+  margin-right: 2rem;
+}
+
+
+.text-content h1, .text-content h2, .text-content h3 {
+  margin: 0;
+}
+
+.text-content h1{
+  margin: 0;
+  font-size: 4em;
+  white-space: nowrap;
+  margin-bottom: 0.8em;
+}
+
+.text-content h2{
+  font-size: 2em;
+}
+
+.text-content button {
+  margin-top: 20px; /* Increase the margin for better spacing */
+  padding: 10px 20px; /* Add padding to make the button bigger */
+  font-size: 1.2em; /* Adjust the font size as needed */
+  border: none; /* Remove the default border */
+  background-color: #007BFF; /* Set the background color */
+  color: #ffffff; /* Set the text color */
+  border-radius: 100px; /* Add rounded corners */
+  cursor: pointer; /* Show a pointer cursor on hover */
+  transition: background-color 0.3s, color 0.3s; /* Add transition effects */
+  margin-bottom: 20px;
+}
+
+.text-content button:hover {
+  background-color: #0056b3; /* Change background color on hover */
+}
+
+.text-content button:first-child {
+  background-color: #007BFF;
+  color: #ffffff;
+  margin-right: 10px; /* Add right margin for spacing */
+}
+
+.text-content button:last-child {
+  background-color: #ffffff;
+  color: #007BFF;
+  margin-left: 10px; /* Add left margin for spacing */
+  border: 2px solid #007BFF; /* Add a border */
+}
+
+.text-content a {
+  text-decoration: none; /* Remove the underline */
+  color: inherit; /* Inherit the color from the parent */
+}
+
+#logo{
+  margin-right: 150px;
+}

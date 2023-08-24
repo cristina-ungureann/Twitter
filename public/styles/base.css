@@ -1,0 +1,108 @@
+html {
+  font-family: 'Roboto', sans-serif;
+}
+
+body {
+  margin: 0;
+}
+
+main {
+  margin: 2rem auto;
+  width: 90%;
+  max-width: 40rem;
+  text-align: center;
+}
+
+a {
+  color:rgb(70, 0, 128);
+}
+
+a:hover,
+a:active {
+  color: rgb(113, 0, 128);
+}
+
+/* #main-header {
+  height: 5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(70, 0, 128);
+}
+
+#main-header ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#main-header li {
+  margin: 0 1rem;
+}
+
+#main-header a {
+  text-decoration: none;
+  color: white;
+}
+
+#main-header button {
+  font: inherit;
+  background-color: transparent;
+  border-color: transparent;
+  cursor: pointer;
+  color: white;
+  padding: 0;
+}
+
+#main-header a:hover,
+#main-header a:active,
+#main-header button:hover,
+#main-header button:active {
+  color: rgb(209, 88, 233);
+} */
+
+/* ... Your existing CSS ... */
+
+
+
+
+.btn {
+  margin-top: 20px; /* Increase the margin for better spacing */
+  padding: 10px 20px; /* Add padding to make the button bigger */
+  font-size: 1.2em; /* Adjust the font size as needed */
+  border: none; /* Remove the default border */
+  background-color: #007BFF; /* Set the background color */
+  color: #ffffff; /* Set the text color */
+  border-radius: 100px; /* Add rounded corners */
+  cursor: pointer; /* Show a pointer cursor on hover */
+  transition: background-color 0.3s, color 0.3s; /* Add transition effects */
+  margin-bottom: 20px; }
+
+.btn:hover,
+.btn:active {
+  background-color: #0056b3;
+  border-color: white;
+  color: white;
+}
+
+.btn.btn-alt {
+  background-color: #ffffff;
+  color: #007BFF;
+  margin-left: 10px; /* Add left margin for spacing */
+  border: 2px solid #007BFF; /* Add a border */
+  text-decoration: none; /* Remove the underline */
+
+}
+
+.btn.btn-alt:hover,
+.btn.btn-alt:active {
+  background-color: rgb(231, 212, 246);
+}
+
+a {
+  text-decoration: none;
+  color:  #007BFF;
+}

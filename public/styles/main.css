@@ -1,0 +1,217 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family: poppins, sans-serif;
+}
+
+body{
+  background-color: #efefef;
+}
+
+nav{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: white ;
+  padding: 5px 5%;
+  position: sticky;
+  top: 0;
+  z-index: 0;
+
+}
+
+#logo{
+  width: 50px ;
+  margin-right: 45px;
+}
+
+.nav-left, .nav-right{
+  display: flex;
+  align-items: center;
+}
+
+.nav-left ul li {
+  list-style: none;
+  display: inline-block;
+}
+
+.nav-left ul li img{
+  width: 28px;
+  margin: 0 15px;
+}
+
+a{
+  color: inherit;
+  text-decoration: none;
+}
+
+.nav-user-icon img{
+  width: 50px;
+  border-radius: 50px;
+  cursor: pointer
+}
+
+.nav-user-icon{
+  margin-left: 20px;
+}
+
+.search-box{
+  background-color: #efefef ;
+  width: 250px ;
+  border-radius: 20px ;
+  display: flex;
+  align-items: center;
+  padding: 0 15px ;
+}
+
+.search-box img{
+ width: 18px;
+}
+
+.search-box input{
+  width: 100%;
+  background: transparent;
+  padding: 10px;
+  outline: none;
+  border: 0;
+}
+
+.online{
+  position: relative;
+}
+
+.online::after{
+  content: '';
+  width: 7px;
+  height: 7px;
+  border: 2px solid #fff ;
+  border-radius: 50px;
+  background: #41db51;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.container{
+  display: flex;
+  justify-content: space-between;
+  padding: 13px 5%;
+}
+
+.left-sidebar{
+ 
+  flex-basis: 25%;
+  position: sticky;
+  top: 20px;
+  align-self: flex-start;
+
+}
+
+.right-sidebar{
+ 
+  flex-basis: 25%;
+  position: sticky;
+  top: 20px;
+  align-self: flex-start;
+  
+}
+
+.main-content{
+  flex-basis: 47%;
+}
+
+
+
+.imp-links a, .shortcut-links a{
+ text-decoration: none;
+ display: flex;
+ align-items: center;
+ margin-bottom: 30px;
+ color: #626262;
+ width: fit-content;
+}
+
+.imp-links img{
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  margin-right: 15px;
+}
+
+.imp-links h2{
+  margin-bottom: 30px;
+  color: #626262;
+}
+
+#see-more{
+  color: #1876f2 ;
+}
+
+.imp-links{
+  border-bottom: 1px solid #ccc ;
+}
+
+
+
+.shortcut-links h2{
+  margin-top: 30px;
+  margin-bottom: 30px;
+  color: #626262;
+}
+
+.sidebar-title{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 18px ;
+
+}
+
+.sidebar-title {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start; /* Align items to the left */
+}
+
+.sidebar-title a {
+  display: block; /* Make each link a block element */
+  margin-bottom: 10px; /* Add some spacing between links */ }
+
+.sidebar-title a img{
+  width: 30px;
+  height: 30px;
+  margin-right: 1px solid #ccc ;
+  margin-top: 30px;
+
+}
+
+.sidebar-title form button img{
+  width: 30px;
+  height: 30px;
+  margin-right: 1px solid #ccc ;
+  margin-top: 30px;
+}
+
+.nav-left {
+  display: flex;
+  align-items: center;
+}
+
+.centered-list {
+  display: flex;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.centered-list li {
+  margin: 0;
+  padding: 0;
+}
+
+.centered-content{
+  margin-top: -650px;
+  margin-left: 250px;
+}

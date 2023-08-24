@@ -1,0 +1,59 @@
+<header id="main-header">
+  <nav>
+    <div class="nav-left">
+      <img src="/styles/images/twitter.png" alt="twitter logo" id="logo">
+      <ul class="centered-list">
+        <li>For You</li>
+        <li>Following</li>
+      </ul>
+    </div>
+    <div class="nav-right">
+      <div class="search-box">
+          <img src="/styles/images/explore.png" alt="">
+          <input type="text" placeholder="Search" name="" id="">
+      </div>
+      <div class="nav-user-icon online">
+        <img src="/styles/images/profile-pic.jpg" alt="">
+        
+      </div>
+    </div>
+  </nav>
+
+ <div class="container">
+    
+  <div class="right-sidebar">
+    <div class="sidebar-title">
+      <a href="#"><img src="/styles/images/home.png" alt=""></a>
+      <a href="#"><img src="/styles/images/search.png" alt=""></a>
+      <a href="#"><img src="/styles/images/bell-ring.png" alt=""></a>
+      <a href="#"><img src="/styles/images/user.png" alt=""></a>
+      <form action="/logout" method="POST">
+        <input type="hidden" value="<%= csrfToken %>" name="_csrf">
+        <button style="border: none; background: none; padding: 0;"><img src="/styles/images/logout.png" alt=""></button>
+      </form>
+    
+     
+    </div>
+   </div>
+   <div class="main-content"></div>
+  
+   <div class="left-sidebar">
+    <div class="imp-links">
+      <h2>Who to follow</h2>
+      <a href="#"><img src="/styles/images/Linus.jpg" alt="">Linus</a>
+      <a href="#"><img src="/styles/images/Serhiy.jpg" alt="">Serhiy Prytula</a>
+      <a href=""><img src="/styles/images/Elon.jpg" alt="">Elon Musk</a>
+      <a href=""><img src="/styles/images/Peter.jpg" alt="">Peter Pan</a>
+      <a href="#" id="see-more">See more</a>
+    </div>
+    <div class="shortcut-links">
+      <h2>Romania trends</h2>
+      <a href="#">Prigoshin</a>
+      <a href="#">Putin</a>
+      <a href="#">Wagner</a>
+      <a href="#">Brics</a>
+    </div>
+ </div>
+ </div>
+
+</header>
